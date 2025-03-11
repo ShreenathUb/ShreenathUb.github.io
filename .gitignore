@@ -1,0 +1,19 @@
+# Ignore node_modules folder (if exists)
+node_modules/
+
+# Ignore package-lock.json (not needed for deployment)
+package-lock.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and cache
+*.log
+.cache/
+
+# Ignore environment files (if any)
+.env
+# Ignore backend folder
+backend/
+node_modules/
